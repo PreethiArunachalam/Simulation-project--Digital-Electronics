@@ -2,13 +2,13 @@
 IMPLEMENT EX NOR GATE USING NAND GATE ONLY
 
 # THEORY
-##Step:1
+###Step:1
 In the implementation of EX NOR gate using NAND gate we can consider a and b are input wires and y is an output wire.
-##Step:2
+###Step:2
 The output y wire is assigned to the output of the final NAND gate which is implemented using the two intermediate NAND gates nand2 and nand3.
-##Step:3
+###Step:3
 The two inputs a and b are connected to the first NAND gate nand1. 
-##Step:4
+###Step:4
 The ~ operator is used to negate the output of the NAND gates to implement the logical negation.
 
 # LOGIC DIAGRAM
